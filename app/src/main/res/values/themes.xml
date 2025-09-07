@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.IranCargoManagement" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary_navy</item>
+        <item name="colorPrimaryVariant">@color/primary_navy_dark</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary_blue</item>
+        <item name="colorSecondaryVariant">@color/secondary_blue_dark</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        
+        <!-- Status bar color -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+        <!-- Background color -->
+        <item name="android:windowBackground">@color/background_light_gray</item>
+        
+        <!-- ActionBar style -->
+        <item name="actionBarStyle">@style/CustomActionBarStyle</item>
+        
+        <!-- Button styles -->
+        <item name="materialButtonStyle">@style/CustomButtonStyle</item>
+        
+        <!-- Text input layout style -->
+        <item name="textInputStyle">@style/CustomTextInputLayoutStyle</item>
+        
+        <!-- Card style -->
+        <item name="materialCardViewStyle">@style/CustomCardStyle</item>
+        
+        <!-- Font family -->
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <!-- Theme without ActionBar for splash and login -->
+    <style name="Theme.IranCargoManagement.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Custom ActionBar Style -->
+    <style name="CustomActionBarStyle" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="background">@color/primary_navy</item>
+        <item name="titleTextStyle">@style/ActionBarTitleText</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+    <!-- ActionBar Title Text Style -->
+    <style name="ActionBarTitleText" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="CustomButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary_navy</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="elevation">2dp</item>
+    </style>
+
+    <!-- Secondary Button Style -->
+    <style name="SecondaryButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary_navy</item>
+        <item name="android:textColor">@color/primary_navy</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <!-- Custom TextInputLayout Style -->
+    <style name="CustomTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/input_focused_border</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Custom Card Style -->
+    <style name="CustomCardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Trip Card Style -->
+    <style name="TripCardStyle" parent="CustomCardStyle">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <!-- Status Badge Styles -->
+    <style name="StatusBadgeStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Toolbar Title Style -->
+    <style name="ToolbarTitleStyle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Large Title Style -->
+    <style name="LargeTitleStyle" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <!-- Medium Title Style -->
+    <style name="MediumTitleStyle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Body Text Style -->
+    <style name="BodyTextStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Secondary Text Style -->
+    <style name="SecondaryTextStyle" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Navy Blue Theme -->
+    <color name="primary_navy">#0B2545</color>
+    <color name="primary_navy_dark">#081B33</color>
+    <color name="primary_navy_light">#134A73</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary_blue">#1E88E5</color>
+    <color name="secondary_blue_dark">#1565C0</color>
+    <color name="secondary_blue_light">#42A5F5</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_orange">#FF6B35</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_red">#F44336</color>
+    <color name="accent_yellow">#FFC107</color>
+    
+    <!-- Background Colors -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_light_gray">#F5F5F5</color>
+    <color name="background_gray">#E0E0E0</color>
+    <color name="background_dark_gray">#424242</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_hint">#9E9E9E</color>
+    
+    <!-- Status Colors -->
+    <color name="status_pending">#FF9800</color>
+    <color name="status_in_progress">#2196F3</color>
+    <color name="status_completed">#4CAF50</color>
+    <color name="status_cancelled">#F44336</color>
+    
+    <!-- Material Design Colors -->
+    <color name="material_deep_teal_500">#009688</color>
+    <color name="material_blue_grey_800">#37474F</color>
+    <color name="material_blue_grey_900">#263238</color>
+    
+    <!-- Transparent Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="semi_transparent_white">#80FFFFFF</color>
+    
+    <!-- Card Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_shadow">#1F000000</color>
+    
+    <!-- Button Colors -->
+    <color name="button_primary">#0B2545</color>
+    <color name="button_secondary">#1E88E5</color>
+    <color name="button_disabled">#BDBDBD</color>
+    
+    <!-- Input Colors -->
+    <color name="input_background">#F8F9FA</color>
+    <color name="input_border">#E1E5E9</color>
+    <color name="input_focused_border">#0B2545</color>
+</resources>

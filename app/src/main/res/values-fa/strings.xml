@@ -1,0 +1,136 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">مدیریت بار ایران</string>
+    
+    <!-- Common -->
+    <string name="ok">تأیید</string>
+    <string name="cancel">لغو</string>
+    <string name="save">ذخیره</string>
+    <string name="delete">حذف</string>
+    <string name="edit">ویرایش</string>
+    <string name="loading">در حال بارگذاری…</string>
+    <string name="error">خطا</string>
+    <string name="success">موفق</string>
+    <string name="retry">تلاش مجدد</string>
+    <string name="back">بازگشت</string>
+    <string name="next">بعدی</string>
+    <string name="finish">پایان</string>
+    <string name="search">جستجو</string>
+    <string name="filter">فیلتر</string>
+    <string name="refresh">بروزرسانی</string>
+    
+    <!-- Login -->
+    <string name="login_title">ورود به سیستم</string>
+    <string name="access_code">کد دسترسی</string>
+    <string name="access_code_hint">کد دسترسی خود را وارد کنید</string>
+    <string name="login_button">ورود</string>
+    <string name="invalid_access_code">کد دسترسی نامعتبر</string>
+    <string name="login_error">ورود ناموفق. لطفاً دوباره تلاش کنید.</string>
+    <string name="welcome_message">به مدیریت بار ایران خوش آمدید</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">داشبورد</string>
+    <string name="active_trips">سفرهای فعال</string>
+    <string name="pending_trips">سفرهای در انتظار</string>
+    <string name="completed_trips">سفرهای تکمیل شده</string>
+    <string name="total_distance">مسافت کل</string>
+    <string name="total_cargo">بار کل</string>
+    
+    <!-- Navigation Menu -->
+    <string name="menu_dashboard">داشبورد</string>
+    <string name="menu_trips">سفرها</string>
+    <string name="menu_scanner">اسکنر QR</string>
+    <string name="menu_profile">پروفایل</string>
+    <string name="menu_settings">تنظیمات</string>
+    <string name="menu_logout">خروج</string>
+    
+    <!-- Trip Management -->
+    <string name="trips_title">مدیریت سفرها</string>
+    <string name="create_trip">ایجاد سفر</string>
+    <string name="trip_details">جزئیات سفر</string>
+    <string name="trip_id">شناسه سفر</string>
+    <string name="origin">مبدأ</string>
+    <string name="destination">مقصد</string>
+    <string name="cargo_type">نوع بار</string>
+    <string name="cargo_weight">وزن بار (کیلوگرم)</string>
+    <string name="driver_name">نام راننده</string>
+    <string name="vehicle_number">شماره خودرو</string>
+    <string name="departure_time">زمان حرکت</string>
+    <string name="arrival_time">زمان رسیدن</string>
+    <string name="trip_status">وضعیت سفر</string>
+    <string name="trip_created">سفر با موفقیت ایجاد شد</string>
+    <string name="trip_updated">سفر با موفقیت بروزرسانی شد</string>
+    <string name="trip_deleted">سفر با موفقیت حذف شد</string>
+    
+    <!-- Trip Status -->
+    <string name="status_pending">در انتظار</string>
+    <string name="status_in_progress">در حال انجام</string>
+    <string name="status_completed">تکمیل شده</string>
+    <string name="status_cancelled">لغو شده</string>
+    
+    <!-- QR Scanner -->
+    <string name="scanner_title">اسکنر کد QR</string>
+    <string name="scan_cargo">اسکن کد QR بار</string>
+    <string name="scanner_instructions">دوربین را روی کد QR نشانه بگیرید</string>
+    <string name="qr_code_scanned">کد QR با موفقیت اسکن شد</string>
+    <string name="invalid_qr_code">کد QR نامعتبر</string>
+    <string name="camera_permission_required">برای اسکن کردن، مجوز دوربین لازم است</string>
+    
+    <!-- Location Tracking -->
+    <string name="location_tracking">ردیابی موقعیت</string>
+    <string name="start_tracking">شروع ردیابی</string>
+    <string name="stop_tracking">توقف ردیابی</string>
+    <string name="tracking_active">ردیابی موقعیت فعال است</string>
+    <string name="tracking_stopped">ردیابی موقعیت متوقف شد</string>
+    <string name="location_permission_required">مجوز موقعیت مکانی لازم است</string>
+    <string name="gps_disabled">لطفاً GPS را فعال کنید</string>
+    
+    <!-- User Types -->
+    <string name="user_type_driver">راننده</string>
+    <string name="user_type_supervisor">سرپرست</string>
+    <string name="user_type_manager">مدیر</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">پروفایل</string>
+    <string name="user_info">اطلاعات کاربر</string>
+    <string name="user_id">شناسه کاربر</string>
+    <string name="user_type">نوع کاربر</string>
+    <string name="last_login">آخرین ورود</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="language_settings">زبان</string>
+    <string name="notification_settings">اعلان‌ها</string>
+    <string name="location_settings">موقعیت</string>
+    <string name="app_version">نسخه برنامه</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_trips">بروزرسانی سفرها</string>
+    <string name="notification_channel_location">ردیابی موقعیت</string>
+    <string name="trip_notification_title">بروزرسانی سفر</string>
+    <string name="location_notification_title">ردیابی موقعیت فعال</string>
+    <string name="location_notification_text">موقعیت شما در حال ردیابی است</string>
+    
+    <!-- Errors -->
+    <string name="network_error">خطای اتصال شبکه</string>
+    <string name="server_error">خطای سرور. لطفاً بعداً تلاش کنید.</string>
+    <string name="data_load_error">بارگذاری داده‌ها ناموفق</string>
+    <string name="permission_denied">مجوز رد شد</string>
+    <string name="location_unavailable">موقعیت در دسترس نیست</string>
+    
+    <!-- Empty States -->
+    <string name="no_trips">سفری موجود نیست</string>
+    <string name="no_internet">اتصال اینترنت موجود نیست</string>
+    <string name="no_data">داده‌ای موجود نیست</string>
+    
+    <!-- Date and Time -->
+    <string name="date_format">yyyy/MM/dd</string>
+    <string name="time_format">HH:mm</string>
+    <string name="datetime_format">yyyy/MM/dd HH:mm</string>
+    
+    <!-- Units -->
+    <string name="km">کیلومتر</string>
+    <string name="kg">کیلوگرم</string>
+    <string name="ton">تن</string>
+    
+</resources>
