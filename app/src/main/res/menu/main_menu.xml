@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_trips"
+        android:title="@string/menu_trips"
+        android:icon="@drawable/ic_truck"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_scanner"
+        android:title="@string/menu_scanner"
+        android:icon="@drawable/ic_qr_code"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/menu_logout"
+        android:icon="@drawable/ic_login"
+        app:showAsAction="never" />
+
+</menu>
